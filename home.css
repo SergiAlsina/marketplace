@@ -1,3 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+@font-face {
+    font-family: "coco";
+    src: url(/font_Fadventure/Coco/coco-gothic.light.ttf) format(ttf);
+    src: url(/font_Fadventure/Coco/coco-gothic.regular.ttf) format(ttf);
+    font-weight: 400;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: "coco";
+    src: url(/font_Fadventure/Coco/coco-gothic.bold.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -6,15 +23,34 @@
 
 .logo{
     width: 150px;
+    
 }
 .cart{
     width: 40px;
 }
 video{
-    width: 500px;
+    width: 600px;
+    border-radius: 30px;
+        
 }
-.navegacion{
+nav, a{
     display: grid;
-    grid-template-columns: 40vw 20vw 20vw 30vw;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
+    text-decoration: none;
+    text-align: center;
+}
+li, img{
+    border-radius: 100px;
+   
+}
+
+ul{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+ 
+}
+
+.legal{
+    text-align: center;
 }
