@@ -1,5 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+@font-face {
+    font-family: "coco";
+    src: url(/font_Fadventure/Coco/coco-gothic.light.ttf) format(ttf);
+    src: url(/font_Fadventure/Coco/coco-gothic.regular.ttf) format(ttf);
+    font-weight: 400;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: "coco";
+    src: url(/font_Fadventure/Coco/coco-gothic.bold.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+h1 {
+    font-family: "Coco", normal;
+    font-style: normal;
+
+}
+
+h2, p{
+    font-family: "coco", normal;
+    font-weight: 200;
+    font-style: normal;
+}
+
+h3{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
 img {
     width: 20vw;
     height: 30vw;
     border-radius: 42px;
 }
+
+button{
+    background-color: black;
+    border-radius: 42px;
+    color: white;
+    font-family: "coco", normal;
+    font-weight: 200;
+    font-style: light;
+}
+
