@@ -17,40 +17,59 @@
 
 *{
     margin: 0;
-    padding: 0;
+    padding: 20;
     box-sizing: border-box;
 }
 
 .logo{
     width: 150px;
+    margin: 20px;
     
 }
 .cart{
     width: 40px;
 }
-video{
-    width: 600px;
+video {
+    margin-left: 20px;
     border-radius: 30px;
-        
+    
+   
+   
 }
 nav, a{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(4,1fr);
     align-items: center;
     text-decoration: none;
     text-align: center;
 }
+
+h2{
+    text-align: center;
+}
+
 li, img{
     border-radius: 100px;
    
 }
 
-ul{
+ul,img {
    display: grid;
-   grid-template-columns: 1fr 1fr;
- 
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(5, 1fr);
+   list-style: none;
 }
 
-.legal{
+p{
+    text-align: justify;
+    width: 250px;
+}
+.experiencia{
+    width: 120rem;
+    
+}
+
+footer{
     text-align: center;
+    margin: 40px;
 }
