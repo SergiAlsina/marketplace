@@ -17,18 +17,26 @@
 h1 {
     font-family: "Coco", normal;
     font-style: normal;
+    text-align: center;
 
 }
 
-h2, p{
+h2, p {
     font-family: "coco", normal;
     font-weight: 200;
     font-style: normal;
     text-align: center;
+    
+}
+h2 {margin-bottom: 0;}
+p {
+    margin-top: 0;
+   margin-bottom: 0 ;
 }
 
 h3{
     font-family: 'Atkinson Hyperlegible', sans-serif;
+    margin-right: 10px;
 }
 
 .bungee{
@@ -49,10 +57,12 @@ button{
     border-radius: 42px;
     color: white;
     font-family: "coco", normal;
+    font-size: 16px;
     font-weight: 200;
     font-style: light;
     width: 100px;
     height: 40px; 
+
     
     
 }
