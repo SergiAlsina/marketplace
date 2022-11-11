@@ -22,6 +22,7 @@
     box-sizing: border-box;
 }
 
+/*
 body {
     
 
@@ -31,7 +32,7 @@ header {
    
     
 }
-
+*/
 /*--------------------LOGO DE LA EMPRESA--------------*/
 .logo{
     width: 100%;
@@ -116,7 +117,7 @@ nav> .a {
 video{
    margin: 0% 0% 0% 10%;
    width: 80%;
-   box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);
+   /*box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);*/
    border-radius: 30px;
 }
 
@@ -143,7 +144,7 @@ h2{
     grid-template-rows:  repeat(3, 1fr);
     justify-items:center;
     gap: 3rem;
-    border: solid red 20PX;
+    /*border: solid red 20PX;*/
  
    
 }
@@ -168,15 +169,15 @@ section>p {
         margin: 0px 0px 0px 80px;
         display: flex;
         flex-wrap: wrap;
-        border: solid #4e4141 2PX;
-        box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);
-        background-color: rgb(14, 66, 37);
+        /*border: solid #4e4141 2PX;*/
+        /*box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);*/
+        /*background-color: rgb(14, 66, 37);*/
     }
 
     p{
         margin: 0px 20px 0px 20px;
         padding: 0;
-        color: wheat;
+        color: rgb(24, 17, 3);/*cambie el colo de letra*/
         font-size: 20px;
         text-align: center;
         
@@ -242,9 +243,9 @@ footer, .footer {
     footer {
         margin-top: 100px;
        justify-content: center;
-       padding: ;
+       /*padding: ;*/
        margin: 0px 70px 0px 70px;
-       box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);
+       /*box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);*/
     }
     .whatsa, .wha {
         width: 50px;
