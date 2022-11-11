@@ -15,61 +15,245 @@
     font-style: normal;
 }
 
+
 *{
     margin: 0;
-    padding: 20;
+    padding: 0;
     box-sizing: border-box;
 }
 
+body {
+    
+
+}
+
+header {
+   
+    
+}
+
+/*--------------------LOGO DE LA EMPRESA--------------*/
 .logo{
-    width: 150px;
-    margin: 20px;
+    width: 100%;
+   
+}
+
+/*--------------------BOTON HAMBURGUESA--------------*/
+
+button, .button {
+    margin-left: 70px;
+    padding: 0px 0px 40px;
+    width: 30px;
+    border: none;
+    background: none;
+    justify-self: center;
+    cursor: pointer;
+    position: absolute
     
 }
+
+@media screen and (min-width: 780px) {
+    .button {
+       display: none;
+    }
+    
+}
+
+@media screen and (max-width: 780px) {
+    .logo {
+        align-items: center;
+        width: 170px;
+    }
+    
+}
+
+
+
+/*--------------------CARRITO DE COMRRA--------------*/
 .cart{
-    width: 40px;
-}
-video {
-    margin-left: 20px;
-    border-radius: 30px;
+    width: 35px;
+    justify-self: end;
     
-   
-   
 }
-nav, a{
+
+
+
+
+nav {
+    margin-left: 50px;
+    padding: 0;
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
+ 
+  
+}
+
+a {
+    
+    justify-self: left;
+    margin: 0px 0px 0px 200px;
+    font-size: 2rem;
     text-decoration: none;
-    text-align: center;
+    color: black;
+
+}
+
+@media screen and (max-width: 768px) {
+    a {
+       display: none;
+    }
+}
+
+
+
+
+nav> .a {
+    justify-self:center;
+    color:black;
+}
+/*--------------------MAIN-VIDEO--------------*/
+video{
+   margin: 0% 0% 0% 10%;
+   width: 80%;
+   box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);
+   border-radius: 30px;
 }
 
 h2{
+    padding: 30px 0px 40px;
     text-align: center;
+    font-size: 3rem;
 }
 
-li, img{
-    border-radius: 100px;
+@media screen and (max-width: 780px) {
+    video {
+        margin: 0px 0px 0px 50px;
+        align-items: center;
+    
+    }
+    
+}
+/*--------------------HISTORIAS DE USUARIOA--------------*/
+.section {
+    margin: 0;
+    padding-bottom: 0px;
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows:  repeat(3, 1fr);
+    justify-items:center;
+    gap: 3rem;
+    border: solid red 20PX;
+ 
    
 }
 
-ul,img {
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: repeat(5, 1fr);
-   list-style: none;
-}
-
-p{
-    text-align: justify;
-    width: 250px;
-}
-.experiencia{
-    width: 120rem;
+img {
+    padding: 0 0 0 20px;
+    border-radius: 100%;
     
 }
 
-footer{
+section>p {
+    
+    margin-top: 5vw;
+    align-items: center;
     text-align: center;
-    margin: 40px;
+
 }
+
+@media screen and (max-width: 800px) {
+    .section {
+        width: 70%;
+        margin: 0px 0px 0px 80px;
+        display: flex;
+        flex-wrap: wrap;
+        border: solid #4e4141 2PX;
+        box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);
+        background-color: rgb(14, 66, 37);
+    }
+
+    p{
+        margin: 0px 20px 0px 20px;
+        padding: 0;
+        color: wheat;
+        font-size: 20px;
+        text-align: center;
+        
+    }
+    img {
+        width: 60%;
+        margin: 0px 50px;
+    }
+
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+    
+}
+
+@media screen and (min-width: 800px) {
+    .section {
+       border: none;
+    }
+}
+   
+
+.whatsa, .wha {
+   padding-bottom: 20px;
+   align-content: center;
+    width: 100px;
+  
+}
+/*--------------------FOOTER--------------*/
+
+footer {
+    text-align: center;
+    border: solid 10px;
+    background: rgba(51, 49, 49, 0.788);
+    padding: 50px;
+    color: rgb(10, 1, 1);
+}
+
+footer, .footer {
+    color: white;
+    margin: 0px 30px;
+    text-transform:none ;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (min-width: 800px) {
+    footer {
+        
+       justify-content: center;
+    }
+}
+       
+      
+
+
+@media screen and (max-width: 800px) {
+    footer {
+        margin-top: 100px;
+       justify-content: center;
+       padding: ;
+       margin: 0px 70px 0px 70px;
+       box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);
+    }
+    .whatsa, .wha {
+        width: 50px;
+        float: inline-start;
+        
+        
+    }
+}
+ 
+
+
+
