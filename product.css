@@ -28,7 +28,10 @@ h2, p {
     text-align: center;
     
 }
-h2 {margin-bottom: 0;}
+h2 {
+    margin-bottom: 0;
+    
+}
 p {
     margin-top: 0;
    margin-bottom: 0 ;
@@ -39,19 +42,18 @@ h3{
     margin-right: 10px;
 }
 
-.bungee{
+.actividad {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
 }
 
-.bungee img{
+.actividad img{
     border-radius: 42px;
     width: 300px;
     height: 380px;
-    margin: auto;
-
+    flex: 1;
 }
 
 button{
@@ -75,130 +77,10 @@ button{
     
 }
 
-.surf img {
-    border-radius: 42px;
-    width: 300px;
-    height: 380px;
-    margin: auto;
-}
-
-.surf {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-}
-
-
-
-.ski img {
-    border-radius: 42px;
-    width: 300px;
-    height: 380px;
-    margin: auto;
-}
-
-.ski {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-} 
-
-
-.parapente img {
-    border-radius: 42px;
-    width: 300px;
-    height: 380px;
-    margin: auto;
-}
-
-.parapente {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-} 
-
-.trekking img {
-    border-radius: 42px;
-    width: 300px;
-    height: 380px;
-    margin: auto;
-}
-
-.trekking {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-} 
-
-.paddlesurf img {
-    border-radius: 42px;
-    width: 300px;
-    height: 380px;
-    margin: auto;
-}
-
-.paddlesurf {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-} 
-
-.nieve img {
-    border-radius: 42px;
-    width: 300px;
-    height: 380px;
-    margin: auto;
-}
-
-.nieve {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-} 
-
-.kayak img {
-    border-radius: 42px;
-    width: 300px;
-    height: 380px;
-    margin: auto;
-}
-
-.kayak {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-} 
-
-.cabalgata img {
-    border-radius: 42px;
-    width: 300px;
-    height: 380px;
-    margin: auto;
-}
-
-.cabalgata {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-} 
-
 .productos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    align-content: center;
-    align-items: center;
+    justify-items: center;
     grid-gap: 15px;
-
+    align-content: center;
 }
-
-
-
