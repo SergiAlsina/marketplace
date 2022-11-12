@@ -77,6 +77,125 @@ button{
     
 }
 
+<<<<<<< HEAD
+=======
+.surf img {
+    border-radius: 42px;
+    width: 300px;
+    height: 380px;
+    margin: auto;
+    
+}
+
+.surf {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+
+
+.ski img {
+    border-radius: 42px;
+    width: 300px;
+    height: 380px;
+    margin: auto;
+}
+
+.ski {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+} 
+
+
+.parapente img {
+    border-radius: 42px;
+    width: 300px;
+    height: 380px;
+    margin: auto;
+}
+
+.parapente {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+} 
+
+.trekking img {
+    border-radius: 42px;
+    width: 300px;
+    height: 380px;
+    margin: auto;
+}
+
+.trekking {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+} 
+
+.paddlesurf img {
+    border-radius: 42px;
+    width: 300px;
+    height: 380px;
+    margin: auto;
+}
+
+.paddlesurf {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+} 
+
+.nieve img {
+    border-radius: 42px;
+    width: 300px;
+    height: 380px;
+    margin: auto;
+}
+
+.nieve {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+} 
+
+.kayak img {
+    border-radius: 42px;
+    width: 300px;
+    height: 380px;
+    margin: auto;
+}
+
+.kayak {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+} 
+
+.cabalgata img {
+    border-radius: 42px;
+    width: 300px;
+    height: 380px;
+    margin: auto;
+}
+
+.cabalgata {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+} 
+
+>>>>>>> ddaf61f575649aed6636863399d3680a251c6c3c
 .productos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
