@@ -167,7 +167,7 @@ footer, .footer {
 
 
 @media screen and (max-width: 800px) {
-    sectio {
+    section {
         margin-top: 100px;
        justify-content: center;
        /*padding: ;*/
