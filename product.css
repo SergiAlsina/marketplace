@@ -84,3 +84,46 @@ button{
     grid-gap: 15px;
     align-content: center;
 }
+
+/*--------------------FOOTER--------------*/
+
+footer {
+    text-align: center;
+    border: solid 10px;
+    background: rgba(51, 49, 49, 0.788);
+    padding: 50px;
+    color: rgb(10, 1, 1);
+}
+
+footer, .footer {
+    color: white;
+    margin: 0px 30px;
+    text-transform:none ;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (min-width: 800px) {
+    footer {
+        
+       justify-content: center;
+       font-family: "coco";
+    }
+}
+       
+      
+
+
+@media screen and (max-width: 800px) {
+    footer {
+        margin-top: 100px;
+       justify-content: center;
+       /*padding: ;*/
+       margin: 0px 70px 0px 70px;
+       /*box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);*/
+       font-family: "coco";
+    }
+    
+}
