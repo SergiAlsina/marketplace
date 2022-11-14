@@ -152,6 +152,8 @@ h2{
     grid-template-rows:  repeat(3, 1fr);
     justify-items:center;
     gap: 3rem;
+    font-family: "coco";
+
     /*border: solid red 20PX;*/
  
    
@@ -188,7 +190,7 @@ section>p {
         color: rgb(24, 17, 3);/*cambie el colo de letra*/
         font-size: 20px;
         text-align: center;
-        font-family: coco;
+        font-family: "coco";
         
     }
     img {
