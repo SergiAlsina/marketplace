@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible&display=swap');
+
+@font-face {
+    font-family: "coco";
+    src: url(/font_Fadventure/Coco/coco-gothic.light.ttf) format(ttf);
+    src: url(/font_Fadventure/Coco/coco-gothic.regular.ttf) format(ttf);
+    font-weight: 400;
+    font-style:normal;
+}
+
+@font-face {
+    font-family: "coco";
+    src: url(/font_Fadventure/Coco/coco-gothic.bold.ttf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+
+/*--------------------LOGO DE LA EMPRESA--------------*/
+.logo{
+    width: 100%;
+   
+}
+
+
+
+/*--------------------BOTON HAMBURGUESA--------------*/
+
+.butto {
+    margin-left: 70px;
+    padding: 0px 0px 40px;
+    width: 30px;
+    border: none;
+    background: none;
+    justify-self: center;
+    cursor: pointer;
+    position: absolute
+    
+}
+
+@media screen and (min-width: 780px) {
+    .butto {
+       display: none;
+    }
+    
+}
+
+@media screen and (max-width: 780px) {
+    .logo {
+        align-items: center;
+        width: 170px;
+    }
+    
+}
+
+
+
+/*--------------------CARRITO DE COMRRA--------------*/
+.cart{
+    width: 35px;
+    justify-self: end;
+    
+}
+
+
+
+
+nav {
+    margin: 0px 0px 0px 90px;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+ 
+  
+}
+
+a {
+    
+    justify-self: left;
+    margin: 0px 0px 0px 200px;
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    font-family: coco;
+}
+
+@media screen and (max-width: 768px) {
+    a {
+       display: none;
+    }
+    nav {
+        margin: 0;
+    }
+}
+
+
+
+
+
+nav> .a {
+    justify-self:center;
+    color:black;
+}
+
+/*-------------------PRODUCTOS--------------------------*/
+
+h1 {
+    font-family: "Coco", normal;
+    font-style: normal;
+    text-align: center;
+    font-size: 4rem;
+
+}
+
+h2, p {
+    font-family: "coco", normal;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    
+}
+h2 {
+    margin-bottom: 0;
+    
+}
+p {
+    margin-top: 0;
+   margin-bottom: 0 ;
+}
+
+h3{
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    margin-right: 10px;
+}
+
+.actividad {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.actividad img{
+    border-radius: 42px;
+    width: 300px;
+    height: 380px;
+    flex: 1;
+}
+
+button {
+    
+    background-color: black;
+    border-radius: 42px;
+    color: white;
+    font-family: "coco", normal;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: light;
+    width: 100px;
+    height: 40px; 
+    justify-items: flex-start;
+ 
+}
+
+.compra{
+    
+   display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    grid-gap: 15px;
+    align-content: center;
+}
+
+@media screen and (max-width: 800px) {
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 100px;
+        
+      
+    }
+}
+    
+
+/*--------------------FOOTER--------------*/
+
+footer {
+    text-align: center;
+    border: solid 10px;
+    background: rgba(51, 49, 49, 0.788);
+    padding: 50px;
+    color: rgb(10, 1, 1);
+}
+
+footer, .footer {
+    color: white;
+    margin: 0px 30px;
+    text-transform:none ;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+@media screen and (min-width: 800px) {
+    footer {
+        
+       justify-content: center;
+       font-family: "coco";
+    }
+}
+       
+      
+
+
+@media screen and (max-width: 800px) {
+    footer {
+        margin-top: 100px;
+       justify-content: center;
+       /*padding: ;*/
+       margin: 0px 70px 0px 70px;
+       /*box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);*/
+       font-family: "coco";
+    }
+    
+}
