@@ -1,9 +1,15 @@
-function funcion(){
+function productos(){
     location.href = "product.html";
 }
 
-const btnMenu =document.querySelector("#btnMenu");
-const menu =document.querySelector("#menu");
-btnMenu.addEventListener("click", function(){
-   menu.classList.toggle("mostrar")  
-});
+function contactos(){
+    location.href = "contact.html";
+}
+
+function carro(){
+    location.href = "cart.html";
+}
+
+function home(){
+    location.href = "home.html";
+}
