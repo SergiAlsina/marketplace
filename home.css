@@ -15,35 +15,26 @@
     font-style: normal;
 }
 
-
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/*
-body {
-    
 
-}
-
-header {
-   
-    
-}
-*/
 /*--------------------LOGO DE LA EMPRESA--------------*/
 .logo{
-    width: 100%;
-   
+    width: 150px;
+    background: none;
+
+
 }
 
 
 
 /*--------------------BOTON HAMBURGUESA--------------*/
 
-button, .button {
+/* button, .button {
     margin-left: 70px;
     padding: 0px 0px 40px;
     width: 30px;
@@ -52,35 +43,122 @@ button, .button {
     justify-self: center;
     cursor: pointer;
     position: absolute
-    
+
+} */
+
+
+body{
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif ;
 }
 
-@media screen and (min-width: 780px) {
+.navbar{
+    /* background:#ff8d01 ; */
+    padding-top: 40px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+/* .nav_logo{
+   width: 10px;
+   border: none;
+   background: none;
+
+} */
+.nav_items, a{
+    /* margin:15px ; */
+    color: white;
+    text-decoration: none;
+
+}
+
+a{
+    color:white;
+    margin: 1em ;
+    text-align: center;
+   
+}
+
+.nav_toggle{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .nav_items{
+        position: absolute;
+        top:60px;
+        left: 0;
+        background: rgb(14, 66, 37);
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        transform: translateX(-100%);
+        transition: 0.3s ease all;
+    }
+    .nav_toggle{
+        display: flex !important;
+        flex-direction: column;
+        margin: 15px;
+    }
+    .nav_toggle span{
+        width: 20px;
+        height: 4px;
+        background: black;
+        margin-bottom: 5px;
+        border-radius: 2px;
+        transform-origin: 5px, 0px;
+        transition: all 0.2 s linear;
+    }
+    .close span {
+        transform: rotate(45seg) translate(0px, 0px);
+    }
+    .close span:nth-child(2){
+        display: none;
+    }
+    .close span:nth-child(3) {
+        transform: rotate(45seg) translate(-5px, 1px);
+    }
+    .open{
+        transform: translateX(0) !important;
+    }
+}
+
+ @media screen and (min-width: 780px) {
     .button {
        display: none;
     }
-    
+
+    a{
+    color:black;
+    margin: 5em ;
+    font-weight: bold;
+    text-align: center;
 }
 
-@media screen and (max-width: 780px) {
+}
+
+@media screen and (min-width: 780px) {
     .logo {
         align-items: center;
-        width: 170px;
+        width: 200px;
     }
-    
+
 }
 
 
 
 /*--------------------CARRITO DE COMRRA--------------*/
-.cart{
-    width: 35px;
+ .cart{
+    width: 30px;
     justify-self: end;
-    
+
 }
 
 
-
+/*
 
 nav {
     margin: 0px 0px 0px 90px;
@@ -88,12 +166,12 @@ nav {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     align-items: center;
- 
-  
+
+
 }
 
 a {
-    
+
     justify-self: left;
     margin: 0px 0px 0px 200px;
     font-size: 2rem;
@@ -119,153 +197,149 @@ a {
 nav> .a {
     justify-self:center;
     color:black;
-}
+} */
 /*--------------------MAIN-VIDEO--------------*/
-video{
-   margin: 0% 0% 0% 10%;
-   width: 80%;
-   /*box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);*/
-   border-radius: 30px;
+.mai_video, video{
+    padding-top: 30px;
+
+    width: 100%;
+    border-radius:  0px 30px 30px 50px ;
+
+
 }
 
 h2{
     padding: 30px 0px 40px;
+    margin-right: 50px;
     text-align: center;
-    font-size: 3rem;
+    font-size: 18px;
     font-family: coco;
 }
 
-@media screen and (max-width: 780px) {
+@media screen and (min-width: 780px) {
     video {
-        margin: 0px 0px 0px 50px;
-        align-items: center;
-    
+        margin: 0 0 0 110px;
+        width: 80%;
+
+
     }
-    
+
 }
 /*--------------------HISTORIAS DE USUARIOA--------------*/
 .section {
-    margin: 0;
-    padding-bottom: 0px;
-    display: grid; 
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows:  repeat(3, 1fr);
+    width: 70%;
+    /* margin: 0px 0px 0px 80px; */
+    margin-left: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);
+    background-color: rgb(14, 66, 37);
     justify-items:center;
+    justify-content: center;
     gap: 3rem;
     font-family: "coco";
+    border: solid red 1PX;
 
-    /*border: solid red 20PX;*/
- 
-   
+
+
+
 }
 
 img {
-    padding: 0 0 0 20px;
+
+    padding: 0 0 0 0px;
     border-radius: 100%;
-    
+    margin-left: 38px;
+
 }
 
 section>p {
-    
+    color: whitesmoke;
     margin-top: 5vw;
+    margin-left: 16px;
     align-items: center;
     text-align: center;
+    font-size: 12px;
 
 }
 
-@media screen and (max-width: 800px) {
-    .section {
-        width: 70%;
-        margin: 0px 0px 0px 80px;
-        display: flex;
-        flex-wrap: wrap;
-        /*border: solid #4e4141 2PX;*/
-        /*box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);*/
-        /*background-color: rgb(14, 66, 37);*/
-    }
+.hist{
 
-    p{
-        margin: 0px 20px 0px 20px;
-        padding: 0;
-        color: rgb(24, 17, 3);/*cambie el colo de letra*/
-        font-size: 20px;
-        text-align: center;
-        font-family: "coco";
-        
-    }
-    img {
-        width: 60%;
-        margin: 0px 50px;
-    }
+    font-size: 50px;
+}
 
-    h2 {
-        font-size: 30px;
-        text-align: center;
-    }
-
-
+.whatsa, .wha {
     
+    align-content: center;
+     width: 50px;
 }
 
 @media screen and (min-width: 800px) {
-    .section {
-       border: none;
-    }
-}
-   
+     .section {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+       justify-content: center;
+       align-items: center;
+       margin: 0 auto;
+       background: none;
+        border: none;
 
-.whatsa, .wha {
-   padding-bottom: 20px;
-   align-content: center;
-    width: 100px;
-  
+    }
+    .section>p {
+       font-size: 1rem;
+       color: black;
+    }
+    .whatsa, .wha {
+        padding-bottom: 10px;
+        align-content: center;
+         width: 60px;
 }
+}
+
+
+
+
 /*--------------------FOOTER--------------*/
 
 footer {
     text-align: center;
     border: solid 10px;
     background: rgba(51, 49, 49, 0.788);
-    padding: 50px;
+    padding: 5px;
     color: rgb(10, 1, 1);
+    width: 70%;
+    margin: 0 auto;
+    padding-bottom: 100px;
+   
 }
 
-footer, .footer {
+.footer, .footer {
     color: white;
-    margin: 0px 30px;
+    /* margin: 0px 30px; */
     text-transform:none ;
-    font-size: 20px;
+    /* font-size: 20px;
     display: flex;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap; */
+
 }
 
 @media screen and (min-width: 800px) {
-    footer {
+    .footer {
         
-       justify-content: center;
-    }
-}
-       
+    
+      justify-content: center;
+        font-size: 10px;
+        display: flex;
+        flex-direction: row;
+      justify-items: start;
+        width: 100%;
       
-
-
-@media screen and (max-width: 800px) {
-    footer {
-        margin-top: 100px;
-       justify-content: center;
-       /*padding: ;*/
-       margin: 0px 70px 0px 70px;
-       /*box-shadow: 2px 0px 20px 0px rgb(163, 223, 163);*/
-    }
-    .whatsa, .wha {
-        width: 50px;
-        float: inline-start;
         
-        
+       
     }
 }
- 
+
+
 
 
 

@@ -5,19 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="home.css">
-    <script type="text/javascript" src="script.js"></script>
+    <!-- <script type="text/javascript" src="script.js"></script> -->
     <title>HomePage</title>
 </head>
 <body>
-<header>
+
 
   <!------------------------------------------NAV-BAR------------------------------------------------>
-    <nav>
-        
-         <img src="fotos resistencia/logo.png" alt="logo" class="logo">
-        <a onclick="productos()" class="a"> Productos </a>
-        <a onclick= "contactos()"> Contacto </a>
-        <button onclick="carro()" id="btnMenu"><img class="button" src="fotos resistencia/hamburger.svg" alt=""></button>
+  <nav class="navbar">
+    <div class="nav_logo"><img src="fotos resistencia/logo.png" alt="logo" class="logo"></div>
+      <!-- <div class="nav_logo">  <img src="fotos resistencia/logo.png" alt="logo" class="logo"></div> -->
+      <div class="nav_items" id="_items">
+        <a href="/product.html">PRODUCTO</a>
+            <a href="/contact.html">CONTACTO</a>
+          </div>
+          <div class="nav_toggle" id="_toggle">
+             <span></span>
+             <span></span>
+             <span></span>
+         </div>
+       
+       
+       
+       
+        <!-- <a onclick="productos()" class="a"> Productos </a>
+        <a onclick= "contactos()"> Contacto </a> -->
+      
+        <!-- <button onclick="carro()" id="btnMenu"><img class="button" src="fotos resistencia/cart.svg" alt=""></button> -->
         <a onclick= "location.href = 'cart.html'"; href="#"> <svg xmlns="http://www.w3.org/2000/svg" class="cart"  viewBox="0 0 24 22" stroke-width="1.5" stroke="#00b341" fill="none" stroke-linecap="round" stroke-linejoin="round">
             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
             <circle cx="6" cy="19" r="2" />
@@ -27,14 +41,17 @@
           </svg> </a>
     </nav>
 <!------------------------------------------MAIN VIDEO------------------------------------------------>
-
+<div class="mai_video">
         <video src="video home/video Proyecto 2.m4v" autoplay muted loop  alt="video homepage"></video>
-  </header>
+
+      </div>
+ 
 
 
   <!------------------------------------HISTORIA DE USUARIO------------------------------------------------>
-
+  <div class="hist">
       <h2>También puedes disfrutar como lo hicieron ellos.</h2>
+  </div>
   <section class="section">
       <p> Darlene Robertson <br><br>
         ¡Con mi familia hicimos un día de escalada! <br>
@@ -92,6 +109,8 @@
       <a class="footer" href="">Política de cookies</a>
         
    </footer>
+
+   <script src="script.js"></script>
 
       
    
